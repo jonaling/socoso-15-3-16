@@ -168,6 +168,20 @@ input[type=button], input[type=button]:hover {
     opacity:0.8;
     background: url("../Misc/search.png") no-repeat 1px 1px;
 }
+.Swrap{
+     border:1px solid #000;
+     display:inline-block;
+}
+.button.Sbut {
+     position:absolute;
+      background-color:transparent;
+        border:0;
+}
+
+.scrollbox {
+  height:200px;
+  overflow-x:scroll;
+}
 /*
 svg {
     background:url(http://4.bp.blogspot.com/-IzPWLqY4gJ0/T01CPzNb1KI/AAAAAAAACgA/_8uyj68QhFE/s400/a2cf7051-5952-4b39-aca3-4481976cb242.jpg);

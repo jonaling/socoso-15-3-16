@@ -43,11 +43,27 @@ namespace MatchBatch1.Controllers
         {
             return View();
         }
+        public ActionResult Match3()
+        {
+            return View();
+        }
         public ActionResult Posts()
         {
             return View();
         }
         public ActionResult SetPage()
+        {
+            return View();
+        }
+        public ActionResult Upload1()
+        {
+            return View();
+        }
+        public ActionResult Upload2()
+        {
+            return View();
+        }
+        public ActionResult OfficeWear()
         {
             return View();
         }

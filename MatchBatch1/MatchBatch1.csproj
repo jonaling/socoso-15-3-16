@@ -280,6 +280,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Upload\upload.php" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -320,9 +321,14 @@
     <Content Include="Views\Home\Match2.cshtml" />
     <Content Include="Views\Home\Posts.cshtml" />
     <Content Include="Views\Home\SetPage.cshtml" />
+    <Content Include="Views\Home\Upload1.cshtml" />
+    <Content Include="Views\Home\Upload2.cshtml" />
+    <Content Include="Views\Home\OfficeWear.cshtml" />
+    <Content Include="Views\Home\Match3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Temp\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
