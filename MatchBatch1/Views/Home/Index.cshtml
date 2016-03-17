@@ -1,6 +1,15 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+<link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+
+<script src="~/Content/butStyle.js"></script>
+<div id="banner1">
+    <a href="#"><div id="background"></div></a>
+</div>  
+<div id="banner2">
+    <a href="#"><div id="background"></div></a>
+</div>  
 
 <div class="jumbotron">
     <h1>SoCoSo</h1>
@@ -8,71 +17,213 @@
     <p><a href="~/Home/Profile" class="btn btn-primary btn-lg">Your profile &raquo;</a></p>
 </div>
 
-<div class="row" style="float: left; width: 25%;">
-    <div class="column"><a href="~/Home/Item1"> <img class="thumbnail" src="~/Misc/white.jpg" /></a></div>
-    <div class="column"><img class="thumbnail" src="~/Misc/1439322586747-P-2944653.jpg" /></div>
-    <div class="col"><img class="thumbnail" src="~/Misc/gset1.png" /></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="col"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-  
-</div>
-
-<div class="row" style="float: left; width: 25%;">
-    <div class="column"><img class="thumbnail" src="~/Misc/red-patent-leather-pump-high-heel.jpg" /></div>
-    <div class="column"><img class="thumbnail" src="~/Misc/m3.png" /></div>
-    <div class="col"><img class="thumbnail"  src="~/Misc/set1.png" /></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="col"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-
-</div>
-<div class="row" style="float: left; width: 25%;">
-    <div class="column"><img class="thumbnail" src="~/Misc/Converse-Shoes.jpg" /></div>
-    <div class="column"><img class="thumbnail" src="~/Misc/gset2.png" /></div>
-    <div class="col"><img class="thumbnail" src="~/Misc/gset3.png" /></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="col"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-
-</div>
-<div class="row" style="float: left; width: 25%;">
-    <div class="column"><img class="thumbnail"  src="~/Misc/m1.png" /></div>
-    <div class="column"><img class="thumbnail"  src="~/Misc/m4.png" /></div>
-    <div class="col"><img class="thumbnail" src="~/Misc/277087_main.jfif"/></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="col"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-
-</div>
 <span>
     <img src="~/Misc/loopy divider.png" align="middle" />
+
 </span>
 
-<!--<ul class="layout_grid grid_4 ">
-    <li>
-        <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-        <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-        <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-        <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-        <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
-    </li>
-    
 
-</ul> -->
+<br/>
+<div class="row" style="float: left; width: 33%;">
+    <div class="thump divbutton  " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();" >
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <a href="~/Home/Item1"> <img width="250" class="thumbnail" src="~/Misc/white.jpg" height="250"></a>
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+    <div class="thump divbutton " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();" >
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <img width="250" class="thumbnail" src="~/Misc/white.jpg" height="250">
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+    
+        <div class="thump divbutton  " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+             onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+            <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+            <img width="250" class="thumbnail" src="~/Misc/1439322586747-P-2944653.jpg" height="250">
+
+            <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+            <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+        </div>
+        <div class="thump divbutton " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+             onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+            <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+            <img width="250" class="thumbnail" src="~/Misc/gset1.png" height="250">
+
+            <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+            <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+        </div>
+    </div>
+   <div class="row" style="float: left; width: 33%;">
+    <div class="thump divbutton  " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <img width="250" class="thumbnail" src="~/Misc/white.jpg" height="250">
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+    <div class="thump divbutton " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <img width="250" class="thumbnail" src="~/Misc/white.jpg" height="250">
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+
+    <div class="thump divbutton  " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <img width="250" class="thumbnail" src="~/Misc/1439322586747-P-2944653.jpg" height="250">
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+    <div class="thump divbutton " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <img width="250" class="thumbnail" src="~/Misc/gset1.png" height="250">
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+</div>
+<div class="row" style="float: left; width: 33%;">
+    <div class="thump divbutton  " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <img width="250" class="thumbnail" src="~/Misc/white.jpg" height="250">
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+    <div class="thump divbutton " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <img width="250" class="thumbnail" src="~/Misc/white.jpg" height="250">
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+
+    <div class="thump divbutton  " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <img width="250" class="thumbnail" src="~/Misc/1439322586747-P-2944653.jpg" height="250">
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+    <div class="thump divbutton " onmouseover="$(this).find('#b1').show(); $(this).find('#b2').show();"
+         onmouseout="$(this).find('#b1').hide(); $(this).find('#b2').hide();">
+
+        <cus1><span>1234 likes</span><br /><span>In 132 sets</span></cus1>
+
+        <img width="250" class="thumbnail" src="~/Misc/gset1.png" height="250">
+
+        <img id="b1" class="butt1" src="~/Misc/up-button.png" />
+        <img id="b2" class="butt2" src="~/Misc/downButton.png" />
+    </div>
+</div>
+
+    <br />
+
+<!--
+    <div class="row" style="float: left; width: 25%;">
+        <div class="column"><img class="thumbnail grayscale" src="http://i.ebayimg.com/images/i/181355106739-0-1/s-l1000.jpg"></div>
+        <div class="column"><a href="~/Home/Item1"> <img class="thumbnail" src="" /></a></div>
+        <div class="column"><img class="thumbnail" src="~/Misc/1439322586747-P-2944653.jpg" /></div>
+        <div class="col"><img class="thumbnail" src="~/Misc/gset1.png" /></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="col"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+
+    </div>
+
+    <div class="row" style="float: left; width: 25%;">
+        <div class="column"><img class="thumbnail" src="~/Misc/red-patent-leather-pump-high-heel.jpg" /></div>
+        <div class="column"><img class="thumbnail" src="~/Misc/m3.png" /></div>
+        <div class="col"><img class="thumbnail" src="~/Misc/set1.png" /></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="col"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+
+    </div>
+    <div class="row" style="float: left; width: 25%;">
+        <div class="column"><img class="thumbnail" src="~/Misc/Converse-Shoes.jpg" /></div>
+        <div class="column"><img class="thumbnail" src="~/Misc/gset2.png" /></div>
+        <div class="col"><img class="thumbnail" src="~/Misc/gset3.png" /></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="col"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+
+    </div>
+    <div class="row" style="float: left; width: 25%;">
+        <div class="column"><img class="thumbnail" src="~/Misc/m1.png" /></div>
+        <div class="column"><img class="thumbnail" src="~/Misc/m4.png" /></div>
+        <div class="col"><img class="thumbnail" src="~/Misc/277087_main.jfif" /></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="col"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        <div class="column"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+
+
+    </div>
+    <span>
+        <img src="~/Misc/loopy divider.png" align="middle" />
+    </span>-->
+
+    <!--<ul class="layout_grid grid_4 ">
+        <li>
+            <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+            <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+            <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+            <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+            <div class="grid_item"><img class="thumbnail" src="http://placehold.it/250x250"></div>
+        </li>
+
+
+    </ul> -->

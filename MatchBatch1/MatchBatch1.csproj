@@ -210,6 +210,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\butStyle.js" />
     <Content Include="Content\StyleSheet1.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -224,6 +225,7 @@
     <Content Include="Misc\combo1.png" />
     <Content Include="Misc\Converse-Shoes.jpg" />
     <Content Include="Misc\dbe739eab4896cfad30e5fe5d40e7c20.jpg" />
+    <Content Include="Misc\downButton.png" />
     <Content Include="Misc\fbs10712_white.jpg" />
     <Content Include="Misc\Flying-Machine-Blue-Slim-Fit-Jeans-28Michael29-6233-082105-1-product2.jpg" />
     <Content Include="Misc\gset1.png" />
@@ -242,10 +244,13 @@
     <Content Include="Misc\RayBanAviator.jpg" />
     <Content Include="Misc\red-patent-leather-pump-high-heel.jpg" />
     <Content Include="Misc\roundtick.jpg" />
+    <Content Include="Misc\search.png" />
     <Content Include="Misc\set1.png" />
     <Content Include="Misc\set2.png" />
     <Content Include="Misc\set3.png" />
     <Content Include="Misc\set4.png" />
+    <Content Include="Misc\soclosologo.png" />
+    <Content Include="Misc\up-button.png" />
     <Content Include="Misc\w1.png" />
     <Content Include="Misc\w2.png" />
     <Content Include="Misc\w3.png" />
@@ -314,6 +319,7 @@
     <Content Include="Views\Home\Profile.cshtml" />
     <Content Include="Views\Home\Match2.cshtml" />
     <Content Include="Views\Home\Posts.cshtml" />
+    <Content Include="Views\Home\SetPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

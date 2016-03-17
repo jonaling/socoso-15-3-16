@@ -47,5 +47,9 @@ namespace MatchBatch1.Controllers
         {
             return View();
         }
+        public ActionResult SetPage()
+        {
+            return View();
+        }
     }
 }
